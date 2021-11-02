@@ -1,5 +1,5 @@
 {
-    "name": "nestjs-mongo",
+    "name": "@greenvillage-io/nestjs-mongo",
     "version": "0.13.0",
     "description": "A NestJS module that provide a simple mongodb orm like",
     "keywords": [
@@ -11,9 +11,13 @@
     ],
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
-    "repository": "git@github.com:Pop-Code/nestjs-mongo.git",
-    "author": "Rmannn <alex.hermann@pop-code.com>",
+    "repository": "git@github.com:greenvillage-io/nestjs-mongo.git",
+    "author": "Edvin CANDON <edvin.candon@greenvillage-io>",
     "license": "MIT",
+    "publishConfig": {
+        "access": "restricted",
+        "registry": "https://npm.pkg.github.com/"
+    },
     "peerDependencies": {
         "@nestjs/common": "^8",
         "@nestjs/core": "^8",
