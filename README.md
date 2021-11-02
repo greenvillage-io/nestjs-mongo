@@ -37,7 +37,7 @@ export class MyModule {}
 
 ### Documentation
 
-A typedoc is generated and available on github [https://pop-code.github.io/nestjs-mongo][doc-link]
+A typedoc is generated and available on github [https://greenvillage-io.github.io/nestjs-mongo][doc-link]
 
 ### [CHANGELOG][changelog]
 
@@ -46,7 +46,3 @@ A typedoc is generated and available on github [https://pop-code.github.io/nestj
 -   [ ] write wiki
 -   [ ] add more tests
 -   [ ] add examples
-
-[npm]: https://www.npmjs.com/package/nestjs-mongo
-[doc-link]: https://pop-code.github.io/nestjs-mongo
-[changelog]: https://github.com/Pop-Code/nestjs-mongo/blob/master/CHANGELOG.md
