@@ -23,7 +23,7 @@ export function TypeObjectId(isArray?: boolean) {
     const typefn = Type(() => ObjectId);
     const trfn = Transform((params) => {
         const value = params.obj[params.key];
-        if (value === undefined) {
+        if (value === undefined || value === null) {
             return;
         }
         if (Array.isArray(value) && isArray === true) {
